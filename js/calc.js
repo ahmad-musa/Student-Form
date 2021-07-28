@@ -42,3 +42,17 @@ function show(name, namef, namem, cls, roll ) {
     document.getElementById("list").appendChild(node);
 
 }
+
+
+// All Reset
+
+
+function allReset() {
+    document.getElementById("frm").reset();
+    document.getElementById("list").innerHTML='';
+
+}
+
+function Resetall() {
+    document.getElementById("list").innerHTML='';
+}
